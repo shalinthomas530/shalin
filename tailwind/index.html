@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/src/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <footer>
+    <div class="relative isolate overflow-hidden bg-[#659f8f] 0 py-16 sm:py-24 lg:py-32">
+        <div class="mx-auto max-w-7x1 px-6 lg:px-8">
+            <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
+                <div class="max-w-xl lg:max-w-lg">
+                    <h2 class="text-3xl font-bold tracking-tight dark:bg-[#313131] sm:text-4xl">Subscribe to our newsletter.</h2>
+                    <div class="mt-6 flex max-w-md gap-x-4">
+                    <label for="email-address" class="sr-only">Email address</label>
+                    <input id="email-address" name="email" type="email" autocomplete="email" required class="min-w-0 flex-auto rounded-md border-0 bg-white px-3.5" placeholder="Enter address">
+                    <button type="submit" class="flex-none rounded-md bg-[#d86943] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm  focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-50">Subscribe</button>
+                 </div>
+                </div>
+                <dl class="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
+                  <div class="flex flex-col items-start">
+                    <div class="rounded-md">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
+                     </svg>
+                    </div>
+                    <dt class="mt-4">Quick Link</dt>
+                    <dd class="mt-2 leading-7 text-[#313131]">
+                        <ul>
+                        <li href="#">Home</li>
+                        <li href="#">Who We Are</li>
+                        <li href="#">Our Philosophy</li>
+                        </ul>
+
+                </div>
+                <div class="flex flex-col items-start">
+                  <dt class="mt-4">Technologies</dt>
+                  <dd class="mt-2 leading-7 text-[#313131]">
+                      <ul>
+                      <li href="#">Home</li>
+                      <li href="#">Who We Are</li>
+                      <li href="#">Our Philosophy</li>
+                      </ul>
+
+                      <hr class="my-6 border-[#d86943]">
+
+                      <div class="flex">
+                        <a href="#">
+                            <img class="max-w-max h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </footer>
+</body>
+</html>
